@@ -5,11 +5,12 @@ using namespace std;
 void MN();
 
 int main(){
-    cout << "Programa que diz qual o maior e o menos peso!\n\n" ;
+    cout << "\n\n" ;
     MN();
     return 0;
 }
 
+//Programa que diz qual o maior e o menor peso!
 void MN(){
     double maior = 0;
     double menor = 0;

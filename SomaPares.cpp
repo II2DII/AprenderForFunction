@@ -5,13 +5,11 @@ using namespace std;
 int SomaPar(int);
 
 int main(){
-    int quant = 0;
-    cout << "Quantos numeros voce quer verificar?" ;
-    cin >> quant;
-    SomaPar(quant);
+    
     return 0;
 }
 
+//Função que soma e conta números pares
 int SomaPar(int quant){
     int num = 0;
     int soma_tot = 0;
